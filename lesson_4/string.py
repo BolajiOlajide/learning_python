@@ -10,3 +10,5 @@ last_name = "Damian"  # assigns the value Damian to last_name
 print last_name + first_name  # concatenates two names
 
 print last_name + ' ' + first_name  # concatenates two names adding a space before each
+
+str(10)  # converts and integer to a string
