@@ -12,3 +12,4 @@ print last_name + first_name  # concatenates two names
 print last_name + ' ' + first_name  # concatenates two names adding a space before each
 
 str(10)  # converts and integer to a string
+print "I am " + `10` + "years old"  # converts the integer 10 to string using backtick
