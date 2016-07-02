@@ -8,9 +8,11 @@ family[3]  # holds sis
 family[-1]  # holds sis minus -1 starts from the end of the list
 family[-4]  # holds dad
 
+print family[-4] # prints dad
 family[0] = 'Grandpa'  # update the value at index 0 to Grandpa
 del family[0]  # deltes Grandpa from the list
-print family[-4] # prints dad
+
+
 
 print family[0][1] #prints the first chracter in the string 'dad'
 
